@@ -1,0 +1,877 @@
+2008-07-15 17:45  gm_hossain
+
+	* TestSuites/prepositions_made_with_three_words.xml, data/bdict.db:
+	  Testsuites for three-words prepositions added
+
+2008-07-15 11:50  gm_hossain
+
+	* bin/run_anubadok_test_suite, lib/Anubadok/BnTable.pm,
+	  lib/Anubadok/EnPP.pm, lib/Anubadok/Translator.pm: Two words
+	  preposition handling improved.
+
+2008-07-15 11:49  gm_hossain
+
+	* TestSuites/list_of_test_suites.xml,
+	  TestSuites/prepositions_made_with_two_words.xml: Testsuites for
+	  two words prepositions added.
+
+2008-07-14 23:45  gm_hossain
+
+	* ChangeLog, Makefile.PL, lib/Anubadok/BnTable.pm,
+	  lib/Anubadok/EnPP.pm, lib/Anubadok/EnSS.pm: Preposition table
+	  updated.
+
+2008-07-14 18:49  gm_hossain
+
+	* MANIFEST, lib/Anubadok/Context.pm, lib/Anubadok/EnPP.pm,
+	  lib/Anubadok/EnTools.pm: Code reorganized.
+
+2008-07-13 10:55  gm_hossain
+
+	* lib/Anubadok/EnPP.pm: Concatenation feature added to
+	  match_pattern.
+
+2008-07-13 00:50  gm_hossain
+
+	* ChangeLog, lib/Anubadok/EnPP.pm, lib/Anubadok/Translator.pm:
+	  Conditions for VVN to JJ conversion updated.
+
+2008-07-12 23:38  gm_hossain
+
+	* lib/Anubadok/BnDict.pm: prelim_lookup cleaned up.
+
+2008-07-12 23:22  gm_hossain
+
+	* lib/Anubadok/BnDict.pm: Root verb extraction method added.
+
+2008-07-11 03:04  gm_hossain
+
+	* data/bdict.db, lib/Anubadok/EnPP.pm: Updated.
+
+2008-07-11 01:17  gm_hossain
+
+	* lib/Anubadok/BnTable.pm, lib/Anubadok/EnPP.pm: Treat _using_
+	  without preceeding VB as IN.
+
+2008-07-10 18:31  gm_hossain
+
+	* lib/Anubadok/BnTable.pm, lib/Anubadok/EnPP.pm,
+	  lib/Anubadok/Translator.pm: Contextual translation of _about_
+
+2008-07-10 17:50  gm_hossain
+
+	* lib/Anubadok/Translator.pm: Allow % in CD to be translated
+
+2008-07-10 17:05  gm_hossain
+
+	* MANIFEST, lib/Anubadok/AnuMisc.pm: AnuMisc.pm removed
+
+2008-07-10 17:02  gm_hossain
+
+	* ChangeLog, data/bdict.db: Updated
+
+2008-07-10 17:01  gm_hossain
+
+	* lib/Anubadok/BnDict.pm: Better handling of CD and others
+	  containing numbers
+
+2008-07-10 16:59  gm_hossain
+
+	* lib/Anubadok/Initialize.pm: Option for using TreeTagger added to
+	  UserSettings.pm
+
+2008-07-10 16:57  gm_hossain
+
+	* lib/Anubadok/Translator.pm: CD translations are now handled
+	  through BnDict.pm
+
+2008-07-10 00:56  gm_hossain
+
+	* lib/Anubadok/BnTable.pm, lib/Anubadok/EnPP.pm,
+	  lib/Anubadok/PoSTagger.pm: Preposition up to translation fixed.
+
+2008-07-06 19:30  gm_hossain
+
+	* data/bdict.db, lib/Anubadok/EnPP.pm: Added new pre-processing
+	  rule for NP to NP.
+
+2008-07-05 15:29  gm_hossain
+
+	* ChangeLog, data/bdict.db, lib/Anubadok/EnPP.pm,
+	  lib/Anubadok/XMLPP.pm: Dictionary update.
+
+2008-07-05 14:43  gm_hossain
+
+	* lib/Anubadok/GTTools.pm, lib/Anubadok/Initialize.pm: Order of
+	  creation for .anubadok directory changed.
+
+2008-07-05 14:22  gm_hossain
+
+	* lib/Anubadok/BnDict.pm, lib/Anubadok/GTTools.pm,
+	  lib/Anubadok/Initialize.pm, lib/Anubadok/POPP.pm,
+	  lib/Anubadok/Settings.pm: User settings and info modules are
+	  sepated.
+
+2008-07-05 14:02  gm_hossain
+
+	* bin/anubadok_po: Write output to a file if input is a file
+	  instead of STDIN.
+
+2008-07-05 13:59  gm_hossain
+
+	* lib/Anubadok/Translator.pm: Config variable name changed.
+
+2008-07-05 11:51  gm_hossain
+
+	* bin/anubadok_po: Error messge changed.
+
+2008-07-05 11:42  gm_hossain
+
+	* bin/anubadok, bin/anubadok_po, lib/Anubadok/GTTools.pm: mention
+	  user about manpage.
+
+2008-07-04 15:03  gm_hossain
+
+	* ChangeLog, INSTALL: Sentence asking to run make twice removed.
+
+2008-07-04 15:01  gm_hossain
+
+	* README: Expanded.
+
+2008-07-04 14:47  gm_hossain
+
+	* lib/Anubadok/BnDict.pm, lib/Anubadok/BnSondhi.pm,
+	  lib/Anubadok/BnTable.pm, lib/Anubadok/EnPP.pm,
+	  lib/Anubadok/EnSParser.pm, lib/Anubadok/GTTools.pm,
+	  lib/Anubadok/Initialize.pm, lib/Anubadok/POPP.pm,
+	  lib/Anubadok/PoSTagger.pm, lib/Anubadok/Settings.pm,
+	  lib/Anubadok/Translator.pm, lib/Anubadok/XMLPP.pm: POD Modified.
+
+2008-07-04 13:28  gm_hossain
+
+	* lib/Anubadok/XMLPP.pm: Improved nested comments handling of XML
+	  documents.
+
+2008-07-02 16:05  gm_hossain
+
+	* bin/anubadok, bin/anubadok_po: POD improved.
+
+2008-06-29 22:58  gm_hossain
+
+	* COPYING, ChangeLog, INSTALL, README: Updated.
+
+2008-06-29 22:35  gm_hossain
+
+	* bin/edit_prefix_and_check_tagger: No need for .bak copy.
+
+2008-06-29 22:25  gm_hossain
+
+	* bin/anubadok, bin/anubadok_po, bin/edit_prefix_and_check_tagger,
+	  bin/pre-configure, lib/Anubadok/Settings.pm: Change in
+	  pre-configuring.
+
+2008-06-29 22:10  gm_hossain
+
+	* Makefile.PL, bin/pre-configure: DISTNAME changed to lowercase.
+
+2008-06-29 22:03  gm_hossain
+
+	* INSTALL, README, bin/configure_for_installation,
+	  bin/pre-configure: pre-configure perl script made non-exe.
+
+2008-06-29 21:49  gm_hossain
+
+	* lib/Anubadok/Settings.pm: __PREFIX__ check added for bdict.db
+	  location
+
+2008-06-29 21:35  gm_hossain
+
+	* INSTALL, MANIFEST, Makefile.PL, README,
+	  bin/configure_for_installation, bin/edit_prefix_and_check_tagger,
+	  lib/Anubadok/Settings.pm: INSTALL Makefile.PL MANIFEST and
+	  configuring script added.
+
+2008-06-29 19:32  gm_hossain
+
+	* ChangeLog, README, lib/Anubadok/Translator.pm: README added.
+
+2008-06-29 19:09  gm_hossain
+
+	* bin/run_anubadok_test_suite, run_anubadok_test_suite: Major code
+	  reorganization IV.
+
+2008-06-29 19:05  gm_hossain
+
+	* bin/anubadok, bin/anubadok_po, run_anubadok_test_suite: Major
+	  code reorganization III.
+
+2008-06-29 18:48  gm_hossain
+
+	* anubadok, anubadok_po, bin/anubadok, bin/anubadok_po: Major code
+	  reorganization II.
+
+2008-06-29 18:44  gm_hossain
+
+	* Anubadok, anubadok, anubadok_po, bin, lib, lib/Anubadok,
+	  lib/Anubadok/AnuMisc.pm, lib/Anubadok/BnDict.pm,
+	  lib/Anubadok/BnSondhi.pm, lib/Anubadok/BnTable.pm,
+	  lib/Anubadok/EnPP.pm, lib/Anubadok/EnSParser.pm,
+	  lib/Anubadok/EnSS.pm, lib/Anubadok/GTTools.pm,
+	  lib/Anubadok/Initialize.pm, lib/Anubadok/POPP.pm,
+	  lib/Anubadok/PoSTagger.pm, lib/Anubadok/Settings.pm,
+	  lib/Anubadok/Translator.pm, lib/Anubadok/XMLPP.pm: Major code
+	  reorganization.
+
+2008-06-28 18:04  gm_hossain
+
+	* Anubadok/EnPP.pm, TestSuites/interrogative_sentences_how.xml,
+	  data/bdict.db: Improved _how_ interrogation handling.
+
+2008-06-28 18:03  gm_hossain
+
+	* Anubadok/Translator.pm, anubadok, anubadok_po: Debugging output
+	  by --debug switch.
+
+2008-06-28 14:16  gm_hossain
+
+	* Anubadok/EnPP.pm, ChangeLog: Processing order interchanged for
+	  how+ and JJ+NN.
+
+2008-06-28 14:07  gm_hossain
+
+	* Anubadok/BnDict.pm, Anubadok/BnTable.pm, Anubadok/EnPP.pm,
+	  Anubadok/Translator.pm,
+	  TestSuites/interrogative_sentences_how.xml,
+	  TestSuites/interrogative_sentences_whom.xml,
+	  TestSuites/list_of_test_suites.xml, data/bdict.db: Interrogation
+	  improvement/testsuites for _whom_ _how_.
+
+2008-06-28 12:15  gm_hossain
+
+	* data/bdict.db: Dictionary updated using Ankur E2B dict for the
+	  month of Apr/May.
+
+2008-06-27 20:09  gm_hossain
+
+	* Anubadok/Settings.pm: _BDict_ directory re-named as _data_
+
+2008-06-27 20:08  gm_hossain
+
+	* BDict, data, data/bdict.db: _BDict_ directory re-named as _data_
+
+2008-06-22 23:43  gm_hossain
+
+	* Anubadok/Translator.pm: POD docs edited.
+
+2008-06-22 16:26  gm_hossain
+
+	* Anubadok/AnuMisc.pm, anubadok, anubadok_po: Documentations
+	  improved.
+
+2008-06-22 15:47  gm_hossain
+
+	* doc: doc directory deleted, as docs (POD) added inside programms.
+
+2008-06-22 15:46  gm_hossain
+
+	* anubadok, anubadok_po: Docs (POD) added inside programms.
+
+2008-06-22 11:30  gm_hossain
+
+	* doc, doc/anubadok.1: man page added.
+
+2008-06-22 11:15  gm_hossain
+
+	* anubadok, anubadok_po: Top level executables enhanced to accepts
+	  commandline arguments.
+
+2008-06-21 20:22  gm_hossain
+
+	* Anubadok/XMLPP.pm, ChangeLog: Check whether XML doc.
+
+2008-06-21 18:50  gm_hossain
+
+	* Anubadok/EnSParser.pm, Anubadok/XMLPP.pm,
+	  TestSuites/auxiliary_verbs_as_main_verbs.xml,
+	  run_anubadok_test_suite: XMLPP module rewritten to support HTML
+	  documens with javascript, comments.
+
+2008-06-21 10:41  gm_hossain
+
+	* Anubadok/Translator.pm, BDict/bdict.db, COPYING, ChangeLog,
+	  TestSuites/interrogative_sentences_where.xml,
+	  TestSuites/interrogative_sentences_who.xml,
+	  TestSuites/interrogative_sentences_why.xml,
+	  TestSuites/list_of_test_suites.xml: Testsuites for
+	  _who_why_where_ added.
+
+2008-06-21 00:30  gm_hossain
+
+	* Anubadok/BnTable.pm, Anubadok/Translator.pm,
+	  TestSuites/auxiliary_verbs_as_main_verbs.xml,
+	  TestSuites/interrogative_sentences_wh.xml,
+	  TestSuites/interrogative_sentences_what.xml,
+	  TestSuites/interrogative_sentences_which.xml,
+	  TestSuites/list_of_test_suites.xml: Interrogative _which_
+	  handling improved.
+
+2008-06-18 23:57  gm_hossain
+
+	* Anubadok/EnSS.pm, Anubadok/Translator.pm, ChangeLog,
+	  TestSuites/interrogative_sentences_do.xml: Improved interrogation
+	  detection.
+
+2008-06-18 02:28  gm_hossain
+
+	* Anubadok/EnSS.pm, Anubadok/Translator.pm: New algorithm for
+	  interrogative sentence detection.
+
+2008-06-17 23:28  gm_hossain
+
+	* Anubadok/BnTable.pm, TestSuites/first_person_tenses_active.xml,
+	  TestSuites/first_person_tenses_active_negation.xml,
+	  TestSuites/interrogative_sentences_aux.xml,
+	  TestSuites/interrogative_sentences_do.xml,
+	  TestSuites/second_person_tenses_active.xml,
+	  TestSuites/second_person_tenses_active_negation.xml,
+	  TestSuites/special_handling_do_verb.xml,
+	  TestSuites/third_person_tenses_active.xml,
+	  TestSuites/third_person_tenses_active_negation.xml: BnTable entry
+	  changed for past simple tense in active sentences.
+
+2008-06-15 11:00  gm_hossain
+
+	* Anubadok/EnSS.pm, Anubadok/Translator.pm, BDict/bdict.db,
+	  TestSuites/interrogative_sentences.xml,
+	  TestSuites/interrogative_sentences_aux.xml,
+	  TestSuites/interrogative_sentences_do.xml,
+	  TestSuites/interrogative_sentences_wh.xml,
+	  TestSuites/list_of_test_suites.xml: Interrogative sentences
+	  improvements.
+
+2008-06-14 12:09  gm_hossain
+
+	* BDict/bdict.db: Dictionary updated using 2008/03 dumps of Ankur
+	  dictionary
+
+2008-06-14 11:30  gm_hossain
+
+	* ChangeLog, TestSuites/interrogative_sentences.xml,
+	  TestSuites/list_of_test_suites.xml: Interrogative sentences
+	  handling initiated.
+
+2008-06-14 11:29  gm_hossain
+
+	* Anubadok/Translator.pm: Support for be as main verbs added.
+
+2008-06-14 11:27  gm_hossain
+
+	* TestSuites/auxiliary_verbs_as_main_verbs.xml: Testsuites for
+	  auxiliary verbs added.
+
+2008-06-14 11:25  gm_hossain
+
+	* Anubadok/BnTable.pm: Support for be as main verbs.
+
+2008-06-14 11:22  gm_hossain
+
+	* run_anubadok_test_suite: Ignore new lines while comparing.
+
+2008-06-13 02:19  gm_hossain
+
+	* run_anubadok_test_suite: run_anubadok_test_suite enhanced to
+	  check a specific Testsuite.
+
+2008-06-13 02:16  gm_hossain
+
+	* Anubadok/BnTable.pm, Anubadok/Translator.pm: Modal verb handling
+	  for active and passive sentences updated.
+
+2008-06-13 02:09  gm_hossain
+
+	* TestSuites/all_persons_modal_can_may.xml,
+	  TestSuites/all_persons_modal_can_may_negation.xml,
+	  TestSuites/all_persons_modal_should.xml,
+	  TestSuites/all_persons_modal_should_negation.xml,
+	  TestSuites/list_of_test_suites.xml: TestSuites updated.
+
+2008-06-10 17:15  gm_hossain
+
+	* ChangeLog, TestSuites/first_person_tenses.xml,
+	  TestSuites/first_person_tenses_negation.xml,
+	  TestSuites/second_person_tenses.xml,
+	  TestSuites/second_person_tenses_negation.xml,
+	  TestSuites/third_person_tenses.xml,
+	  TestSuites/third_person_tenses_negation.xml,
+	  run_anubadok_test_suite: Testsuites updated.
+
+2008-06-10 17:14  gm_hossain
+
+	* TestSuites/first_person_tenses_active.xml,
+	  TestSuites/first_person_tenses_active_negation.xml,
+	  TestSuites/list_of_test_suites.xml,
+	  TestSuites/second_person_tenses_active.xml,
+	  TestSuites/second_person_tenses_active_negation.xml,
+	  TestSuites/third_person_tenses_active.xml,
+	  TestSuites/third_person_tenses_active_negation.xml: Testsuites
+	  for direct sentences renamed as active.
+
+2008-06-10 17:03  gm_hossain
+
+	* TestSuites/all_persons_tenses_passive.xml,
+	  TestSuites/all_persons_tenses_passive_negation.xml: Testsuites
+	  for passive sentences are added.
+
+2008-06-10 17:00  gm_hossain
+
+	* Anubadok/BnSondhi.pm, Anubadok/BnTable.pm, Anubadok/EnSS.pm,
+	  Anubadok/Translator.pm: Direct/Indirect sentence appropriately
+	  renamed as active/passive sectence.
+
+2008-06-07 22:03  gm_hossain
+
+	* Anubadok/GTTools.pm: Use rand() in temp filename
+
+2008-06-07 22:02  gm_hossain
+
+	* Anubadok/EnPP.pm: Little sanity check
+
+2008-06-07 22:01  gm_hossain
+
+	* Anubadok/Initialize.pm: Ask user to re-run
+
+2008-06-07 21:59  gm_hossain
+
+	* Anubadok/BnDict.pm: Changed new_words_db to new_words_list
+
+2008-06-07 10:55  gm_hossain
+
+	* BDict/bdict.db: Dictionary updated using 2008/02 dumps of Ankur
+	  E2B Dictionary.
+
+2008-06-06 00:58  gm_hossain
+
+	* Anubadok/Translator.pm, ChangeLog: ChangeLog updated.
+
+2008-06-06 00:54  gm_hossain
+
+	* Anubadok/Translator.pm, TestSuites/list_of_test_suites.xml,
+	  TestSuites/special_handling_do_verb.xml: Special handling of _do_
+	  verb with testsuites.
+
+2008-06-04 00:40  gm_hossain
+
+	* BDict/bdict.db: Dictionary updated using 2008/01 dumps of Ankur
+	  Abhidhan.
+
+2008-06-02 10:08  gm_hossain
+
+	* Anubadok/Translator.pm, ChangeLog: Minor update.
+
+2008-06-02 02:16  gm_hossain
+
+	* Anubadok/AnuMisc.pm, Anubadok/BnSondhi.pm, Anubadok/BnTable.pm,
+	  Anubadok/EnPP.pm, Anubadok/EnSParser.pm, Anubadok/EnSS.pm,
+	  Anubadok/POPP.pm, Anubadok/Translator.pm, Anubadok/XMLPP.pm:
+	  Changed use 5.008004 to 5.008003
+
+2008-06-02 01:59  gm_hossain
+
+	* Anubadok/Settings.pm: Changed to _use 5.008003_
+
+2008-06-01 22:10  gm_hossain
+
+	* Anubadok/BnDict.pm, Anubadok/Settings.pm, anubadok, anubadok_po:
+	  Initialization reorganized.
+
+2008-06-01 18:39  gm_hossain
+
+	* Anubadok/BnTable.pm, Anubadok/Translator.pm, ChangeLog,
+	  TestSuites/all_persons_modal_can_may.xml,
+	  TestSuites/list_of_test_suites.xml: New code for handling modal
+	  can, may, could and might added.
+
+2008-06-01 18:36  gm_hossain
+
+	* Anubadok/EnSS.pm: may, might removed from conditions of future
+	  tense.
+
+2008-06-01 13:02  gm_hossain
+
+	* Anubadok/BnTable.pm, Anubadok/Translator.pm,
+	  TestSuites/all_persons_modal_should.xml,
+	  TestSuites/all_persons_modal_should_negation.xml: Modal _should_
+	  handling enhanced.
+
+2008-06-01 03:22  gm_hossain
+
+	* Anubadok/BnTable.pm: pronoun_direct_to_modal_table added.
+
+2008-06-01 03:20  gm_hossain
+
+	* run_anubadok_test_suite: Fixed success rate upto 1 decimal place.
+
+2008-05-31 23:31  gm_hossain
+
+	* Anubadok/BnTable.pm, Anubadok/Translator.pm, ChangeLog,
+	  TestSuites/all_persons_modal_should.xml,
+	  TestSuites/all_persons_modal_should_negation.xml,
+	  TestSuites/list_of_test_suites.xml: New code for handling modal
+	  _should_ and _ought_ added.
+
+2008-05-31 19:32  gm_hossain
+
+	* Anubadok/EnPP.pm, Anubadok/EnSS.pm: tag VH addedin
+	  have_has_had_ind.
+
+2008-05-31 12:04  gm_hossain
+
+	* Anubadok/BnTable.pm, Anubadok/Translator.pm: Added verb modifier
+	  table for direct sentences in negation.
+
+2008-05-31 12:00  gm_hossain
+
+	* TestSuites/second_person_tenses_negation.xml: Fixed typo.
+
+2008-05-31 02:59  gm_hossain
+
+	* TestSuites/first_person_tenses_negation.xml,
+	  TestSuites/list_of_test_suites.xml,
+	  TestSuites/second_person_tenses_negation.xml,
+	  TestSuites/third_person_tenses_negation.xml: Test-suites added
+	  for first, second and third person: all tenses in negation.
+
+2008-05-31 02:30  gm_hossain
+
+	* ChangeLog, TestSuites/list_of_test_suites.xml,
+	  TestSuites/second_person_tenses.xml,
+	  TestSuites/third_person_tenses.xml: Minor changes to XML
+	  structure.
+
+2008-05-31 02:28  gm_hossain
+
+	* run_anubadok_test_suite: Functionality added to translate all
+	  test suites at once.
+
+2008-05-31 02:25  gm_hossain
+
+	* TestSuites/first_person_tenses.xml: Minor changes to XML
+	  structure.
+
+2008-05-24 17:39  gm_hossain
+
+	* TestSuites/first_person_tenses.xml,
+	  TestSuites/list_of_test_suites.xml,
+	  TestSuites/second_person_tenses.xml,
+	  TestSuites/third_person_tenses.xml: Third person: all sentences
+	  added to TestSuites
+
+2008-05-24 17:39  gm_hossain
+
+	* ChangeLog: ChangeLog file added.
+
+2008-05-24 15:07  gm_hossain
+
+	* TestSuites, TestSuites/first_person_tenses.xml,
+	  TestSuites/list_of_test_suites.xml,
+	  TestSuites/second_person_tenses.xml, run_anubadok_test_suite:
+	  Test-Suite system for Anubadok introduced.
+
+2008-05-24 15:06  gm_hossain
+
+	* AUTHORS: AUTHORS file added.
+
+2008-05-24 13:27  gm_hossain
+
+	* Anubadok/PoSTagger.pm: Force utf8 opening of tmp file.
+
+2008-05-24 13:20  gm_hossain
+
+	* Anubadok/XMLPP.pm: xml_post_processor: __SPACE__ substitution
+
+2008-05-15 12:21  gm_hossain
+
+	* Anubadok/BnTable.pm: Fixed typo in wh_table_question
+
+2008-05-11 12:22  gm_hossain
+
+	* Anubadok/PoSTagger.pm: Fixed removal of temp file on tagger
+	  failure.
+
+2008-05-11 12:12  gm_hossain
+
+	* Anubadok/PoSTagger.pm: Check for tagger failure.
+
+2008-04-01 01:00  gm_hossain
+
+	* Anubadok/Initialize.pm: Minor update.
+
+2008-04-01 00:59  gm_hossain
+
+	* Anubadok/PoSTagger.pm: Minor update.
+
+2008-04-01 00:58  gm_hossain
+
+	* Anubadok/GTTools.pm: Minor update.
+
+2008-04-01 00:58  gm_hossain
+
+	* Anubadok/BnDict.pm: Minor update.
+
+2008-03-31 23:23  gm_hossain
+
+	* Anubadok/BnTable.pm, Anubadok/EnPP.pm, Anubadok/EnSS.pm,
+	  Anubadok/Translator.pm: Major update.
+
+2008-03-23 23:15  gm_hossain
+
+	* anubadok: License year updated.
+
+2008-01-23 01:53  gm_hossain
+
+	* Anubadok/Translator.pm: Major rewrite for negation handling.
+
+2008-01-23 01:52  gm_hossain
+
+	* Anubadok/EnPP.pm: string return changed to array.
+
+2008-01-23 01:40  gm_hossain
+
+	* Anubadok/EnPP.pm: Support for consist.of handling added.
+
+2008-01-23 01:38  gm_hossain
+
+	* Anubadok/BnTable.pm: Existential there: EX support added.
+
+2008-01-22 01:52  gm_hossain
+
+	* Anubadok/EnSS.pm: Changed return to array from string.
+
+2008-01-22 01:50  gm_hossain
+
+	* BDict/bdict.db: Dictionary updated.
+
+2008-01-21 00:06  gm_hossain
+
+	* Anubadok/BnTable.pm: Several typos corrected.
+
+2008-01-20 17:41  gm_hossain
+
+	* Anubadok/BnTable.pm: Cleaned up.
+
+2008-01-20 17:40  gm_hossain
+
+	* Anubadok/BnDict.pm: Cleaned up.
+
+2008-01-19 23:02  gm_hossain
+
+	* Anubadok/EnSParser.pm: _consist.of_
+
+2008-01-13 18:08  gm_hossain
+
+	* Anubadok/BnTable.pm: Support for "with respect to" added.
+
+2008-01-13 18:08  gm_hossain
+
+	* Anubadok/EnPP.pm: Support for "with respect to" added.
+
+2008-01-13 18:06  gm_hossain
+
+	* Anubadok/EnSParser.pm: Heavy re-arrangement of codes
+
+2008-01-13 16:18  gm_hossain
+
+	* Anubadok/EnPP.pm: New subroutine added.
+
+2008-01-13 16:16  gm_hossain
+
+	* Anubadok/BnTable.pm: Bn Table updated.
+
+2008-01-13 16:05  gm_hossain
+
+	* Anubadok/BnDict.pm: Dictionary lookup updated.
+
+2008-01-13 16:03  gm_hossain
+
+	* BDict/bdict.db: Dictionary updated.
+
+2008-01-07 03:48  gm_hossain
+
+	* COPYING: Year 2008.
+
+2008-01-07 03:47  gm_hossain
+
+	* Anubadok/Translator.pm: Aux verb negation support added.
+
+2008-01-07 03:46  gm_hossain
+
+	* Anubadok/EnSParser.pm: Reorganized.
+
+2008-01-07 03:44  gm_hossain
+
+	* Anubadok/EnPP.pm: Noun check added.
+
+2008-01-07 03:42  gm_hossain
+
+	* Anubadok/BnTable.pm: Determiner list updated.
+
+2008-01-05 18:47  gm_hossain
+
+	* BDict/bdict.db: Database updated.
+
+2008-01-05 18:47  gm_hossain
+
+	* Anubadok/BnTable.pm: Past tense (S), indirect: modifier switched
+	  back.
+
+2008-01-05 18:46  gm_hossain
+
+	* Anubadok/AnuMisc.pm: Added failure check in number translation.
+
+2008-01-05 18:44  gm_hossain
+
+	* Anubadok/Translator.pm: Cleande up some old stuffs.
+
+2008-01-05 03:45  gm_hossain
+
+	* Anubadok/AnuMisc.pm: Syntax corrected.
+
+2008-01-03 23:29  gm_hossain
+
+	* Anubadok/EnPP.pm: EnPP.pm is massively updated.
+
+2008-01-01 18:35  gm_hossain
+
+	* Anubadok/Settings.pm: Options for tree-tagger-english tagger
+	  added but it remains commented out.
+
+2008-01-01 18:33  gm_hossain
+
+	* Anubadok/Translator.pm: Tab check improved and copyright updated.
+
+2007-12-25 21:47  gm_hossain
+
+	* Anubadok/Translator.pm: Person guess from VVZ added.
+
+2007-12-25 21:44  gm_hossain
+
+	* Anubadok/Settings.pm: Typo corrected.
+
+2007-12-25 16:39  gm_hossain
+
+	* Anubadok/PoSTagger.pm: PoSTagger::version added.
+
+2007-12-25 16:37  gm_hossain
+
+	* Anubadok/BnTable.pm: meaning of _whatever_ added.
+
+2007-12-08 21:35  gm_hossain
+
+	* BDict/bdict.db: dictionary updated.
+
+2007-12-08 01:03  gm_hossain
+
+	* Anubadok/Settings.pm: Cosmetic changes.
+
+2007-12-04 01:41  gm_hossain
+
+	* Anubadok/Initialize.pm: minor edit.
+
+2007-12-04 01:36  gm_hossain
+
+	* Anubadok/Settings.pm: email corrected.
+
+2007-12-04 01:14  gm_hossain
+
+	* Anubadok/Initialize.pm: ".anubadok" dir check added.
+
+2007-12-04 01:12  gm_hossain
+
+	* Anubadok/BnDict.pm: Check for .anubadok dir added.
+
+2007-12-04 00:44  gm_hossain
+
+	* BDict/bdict.db: Dictionary bdict.db loaded.
+
+2007-12-04 00:42  gm_hossain
+
+	* BDict/bdict.db: bdict.db symlink deleted.
+
+2007-12-04 00:41  gm_hossain
+
+	* Anubadok/Initialize.pm: File handle corrected.
+
+2007-12-02 18:21  gm_hossain
+
+	* Anubadok/Initialize.pm: Initialize.pm added.
+
+2007-12-02 18:21  gm_hossain
+
+	* Anubadok/Settings.pm: Initialize.pm dependence added.
+
+2007-12-02 18:19  gm_hossain
+
+	* Anubadok/POPP.pm: UserSettings.pm dependence removed.
+
+2007-12-02 18:17  gm_hossain
+
+	* Anubadok/BnDict.pm: UserSettings.pm dependence removed.
+
+2007-12-02 18:16  gm_hossain
+
+	* Anubadok/GTTools.pm: GTTools.pm updates.
+
+2007-12-02 16:10  gm_hossain
+
+	* Anubadok/Translator.pm: Translator.pm added.
+
+2007-12-02 16:08  gm_hossain
+
+	* BDict, BDict/bdict.db: Dictionary added.
+
+2007-11-30 03:49  gm_hossain
+
+	* Anubadok/BnDict.pm, Anubadok/GTTools.pm, Anubadok/POPP.pm,
+	  Anubadok/Settings.pm, anubadok, anubadok_po: anubadok,
+	  anubadok_po added.
+
+2007-11-30 00:15  gm_hossain
+
+	* Anubadok/GTTools.pm: GTTolls.pm added.
+
+2007-11-29 23:54  gm_hossain
+
+	* Anubadok/POPP.pm, Anubadok/PoSTagger.pm: POPP.pm added,
+	  PoSTagger.pm cleaned up.
+
+2007-11-29 23:51  gm_hossain
+
+	* Anubadok/BnDict.pm: Undefined string 'eq' corrected
+
+2007-11-28 02:01  gm_hossain
+
+	* Anubadok/EnPP.pm, Anubadok/EnSParser.pm, Anubadok/EnSS.pm,
+	  Anubadok/PoSTagger.pm, Anubadok/Settings.pm, Anubadok/XMLPP.pm:
+	  EnSS.pm, PoSTagger.pm, XMLPP.pm, Settings.pm,EnPP.pm added.
+
+2007-11-28 01:08  gm_hossain
+
+	* Anubadok/BnTable.pm: BnTable.pm added.
+
+2007-11-28 01:00  gm_hossain
+
+	* Anubadok/BnDict.pm, Anubadok/BnSondhi.pm: BnSondhi.pm, BnDict.pm
+	  added.
+
+2007-11-28 00:46  gm_hossain
+
+	* Anubadok, Anubadok/AnuMisc.pm: AnuMisc.pm added
+
+2007-11-28 00:06  gm_hossain
+
+	* COPYING: License file added
+
+2007-11-26 01:56  gm_hossain
+
+	* .: Initial import
+
