@@ -56,6 +56,7 @@ class Translator:
     en_subject = []
     en_object = []
     en_verb = []
+    pp_in_subject_ind = False
     interrogative_sentence_ind = 0
     non_wh_question_ind = 0
     imperative_sentence_ind = 0
@@ -163,6 +164,7 @@ def reset_sentence_level_indicators():
     Translator.non_wh_question_ind = 0
     Translator.imperative_sentence_ind = 0  # By default a sentence is not imperative
     Translator.passive_sentence_ind = 0  # By default a sentence is active
+    Translator.pp_in_subject_ind = False
     
     Translator.person = 3  # default: 3rd person
     Translator.person_determined = 0  # reset
@@ -231,6 +233,7 @@ def bangla_translate(sentence: List[str]) -> str:
         Translator.is_it_first_print = False
     
     return bn_sentence + Translator.bn_punctuation
+
 
 def determine_subject_object_verb_new(sentence: List[str]) -> None:
     """
@@ -455,12 +458,16 @@ def swap_subject_object():
     Translator.en_subject = new_sub
 
 def translate_subject() -> str:
-    """Translates the subject and finds out the 'person'"""
+    """
+    Translates the subject and finds out the 'person'
+    """
     Translator.object_or_subject_ind = 0  # set it to 'subject' and call general sub_obj
     return construct_sub_obj(Translator.en_subject)
 
 def translate_object() -> str:
-    """Translate the object"""
+    """
+    Translate the object
+    """
     Translator.object_or_subject_ind = 1  # set it to 'object' and call general sub_obj
     return construct_sub_obj(Translator.en_object)
 
@@ -611,9 +618,11 @@ def construct_sub_obj(en_sub_obj: List[str]) -> str:
             bn_wd = find_out_pronoun(en_word)
 
             # From subject
-            if Translator.object_or_subject_ind == 0 and not Translator.person_determined:
-                Translator.person = find_out_person(en_word)
-                Translator.person_determined = 1
+            if Translator.object_or_subject_ind == 0:
+                Translator.pp_in_subject_ind = True
+                if not Translator.person_determined:
+                    Translator.person = find_out_person(en_word)
+                    Translator.person_determined = 1
             
             # From object
             if Translator.object_or_subject_ind == 1 and not Translator.person_determined:
@@ -711,7 +720,9 @@ def construct_sub_obj(en_sub_obj: List[str]) -> str:
         return Translator.snd_final_word
 
 def process_and_translate_determiner(eng_word: str) -> bool:
-    """Process determiner: a, an, the, these, those..."""
+    """
+    Process determiner: a, an, the, these, those...
+    """
     bn_word_determiner = BnTable.bn_determiner_table_1.get(eng_word)
     
     if bn_word_determiner:
