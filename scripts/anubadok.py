@@ -60,7 +60,7 @@ def main():
         sys.exit(0)
     
     if args.debug:
-        translator.Translator.turn_on_debugging += 5
+        translator.Translator.turn_on_debugging = args.debug
 
     input_source = sys.stdin
     input_type = "STDIN"
