@@ -42,7 +42,7 @@ def english_sentence_preprocessor(input_text: str) -> list:
     """
     Top-level processor for English sentences
     """
-    sentence_input = input_text.split('\n')
+    sentence_input = input_text.rstrip('\n').split('\n')
     sentence = []
     sentence_output = []
     
@@ -52,7 +52,8 @@ def english_sentence_preprocessor(input_text: str) -> list:
     remove_ind = False
     
     # Add empty sent to ensure processing stops
-    sentence_input.append(empty_sent)
+    if not 'SENT' in sentence_input[-1]:
+        sentence_input.append(empty_sent)
     
     # Remove marked portions
     temp_output = []
