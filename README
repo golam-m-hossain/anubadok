@@ -1,0 +1,26 @@
+
+To run Anubadok from current directory WITHOUT installation
+===============================================================
+
+Example usage:
+
+$ echo "I love you." | ./scripts/anubadok.py
+
+Or to translate a file
+
+$ ./scripts/anubadok.py  input_file
+
+
+Anubadok's own test suites:
+--------------------------
+
+To check all listed test suites: 
+
+$ ./scripts/run_anubadok_test_suite.py 
+
+To check any particular testsuite, specify it as commandline 
+argument. For example:
+
+$ ./scripts/run_anubadok_test_suite.py tests/first_person_tenses_active.xml 
+
+================================================================
