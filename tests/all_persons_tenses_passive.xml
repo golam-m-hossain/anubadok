@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="All persons: all tenses, passive sentences">
+<author>Golam Mortuza Hossain</author>
+<sentence english="I am told." expected_bengali="আমাকে বলা হয়।">
+I am told.
+</sentence>
+<sentence english="I am being told." expected_bengali="আমাকে বলা হচ্ছে।">
+I am being told.
+</sentence>
+<sentence english="I have been told." expected_bengali="আমাকে বলা হয়েছে।">
+I have been told.
+</sentence>
+<sentence english="I have been being told." expected_bengali="আমাকে বলা হচ্ছে।">
+I have been being told.
+</sentence>
+<sentence english="I was told." expected_bengali="আমাকে বলা হয়েছিল।">
+I was told.
+</sentence>
+<sentence english="I was being told." expected_bengali="আমাকে বলা হচ্ছিল।">
+I was being told.
+</sentence>
+<sentence english="I had been told." expected_bengali="আমাকে বলা হয়েছিল।">
+I had been told.
+</sentence>
+<sentence english="I had been being told." expected_bengali="আমাকে বলা হচ্ছিল।">
+I had been being told.
+</sentence>
+<sentence english="I will be told." expected_bengali="আমাকে বলা হবে।">
+I will be told.
+</sentence>
+<sentence english="I will be being told." expected_bengali="আমাকে বলা হবে।">
+I will be being told.
+</sentence>
+</testsuites>

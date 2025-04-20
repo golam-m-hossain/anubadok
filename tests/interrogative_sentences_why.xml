@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="Interrogative sentences with _why_.">
+<author>Golam Mortuza Hossain</author>
+<sentence english="Why are you late today?" expected_bengali="আপনি দেরিতে আজ কেন?">
+	Why are you late today?
+</sentence>
+<sentence english="Why is she cooking food?"  expected_bengali="সে খাবার কেন রান্না করছে?">
+	Why is she cooking food?
+</sentence>
+<sentence english="Why will she work?"  expected_bengali="সে কেন কাজ করবে?">
+	Why will she work?
+</sentence>
+</testsuites>

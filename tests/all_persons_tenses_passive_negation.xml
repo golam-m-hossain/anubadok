@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="All persons: all tenses, passive sentences in negation">
+<author>Golam Mortuza Hossain</author>
+<sentence english="I am not told." expected_bengali="আমাকে বলা হয় না।">
+I am not told.
+</sentence>
+<sentence english="I am not being told." expected_bengali="আমাকে বলা হচ্ছে না।">
+I am not being told.
+</sentence>
+<sentence english="I have not been told." expected_bengali="আমাকে বলা হয়নি।">
+I have not been told.
+</sentence>
+<sentence english="I have not been being told." expected_bengali="আমাকে বলা হচ্ছে না।">
+I have not been being told.
+</sentence>
+<sentence english="I was not told." expected_bengali="আমাকে বলা হয়নি।">
+I was not told.
+</sentence>
+<sentence english="I was not being told." expected_bengali="আমাকে বলা হচ্ছিল না।">
+I was not being told.
+</sentence>
+<sentence english="I had not been told." expected_bengali="আমাকে বলা হয়নি।">
+I had not been told.
+</sentence>
+<sentence english="I had not been being told." expected_bengali="আমাকে বলা হচ্ছিল না।">
+I had not been being told.
+</sentence>
+<sentence english="I will not be told." expected_bengali="আমাকে বলা হবে না।">
+I will not be told.
+</sentence>
+<sentence english="I will not be being told." expected_bengali="আমাকে বলা হবে না।">
+I will not be being told.
+</sentence>
+</testsuites>

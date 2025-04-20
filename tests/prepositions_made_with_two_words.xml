@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="Prepositions that are made with two words.">
+<author>Golam Mortuza Hossain</author>
+<sentence english="You cannot work according to the rules." 
+	expected_bengali="আপনি নিয়ম অনুসারে কাজ করতে পারেন না।">
+You cannot work according to the rules.
+</sentence>
+<sentence english="They are protesting ahead of the conference." 
+	expected_bengali="তারা বৈঠকের আগে প্রতিবাদ করছে।">
+They are protesting ahead of the conference.
+</sentence>
+<sentence english="Aside from the mild fever, the patient feels well." 
+	expected_bengali="মৃদু জ্বর ছাড়া, রুগী ভাল অনুভব করে।">
+Aside from the mild fever, the patient feels well.
+</sentence>
+</testsuites>

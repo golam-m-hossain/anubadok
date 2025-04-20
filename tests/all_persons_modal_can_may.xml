@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="Modal verbs: can, may, could and might for all persons">
+<author>Golam Mortuza Hossain</author>
+<sentence english="I can work." expected_bengali="আমি কাজ করতে পারি।">
+I can work.
+</sentence>
+<sentence english="I may work." expected_bengali="আমি কাজ করতে পারি।">
+I may work.
+</sentence>
+<sentence english="I could work." expected_bengali="আমি কাজ করতে পারি।">
+I could work.
+</sentence>
+<sentence english="I might work." expected_bengali="আমি কাজ করতে পারি।">
+I might work.
+</sentence>
+<sentence english="I could have worked." expected_bengali="আমি কাজ করতে পারি।">
+I could have worked.
+</sentence>
+<sentence english="I might have worked." expected_bengali="আমি কাজ করতে পারি।">
+I might have worked.
+</sentence>
+<sentence english="I can have this book." expected_bengali="আমার এই বইটি থাকতে পারে।">
+I can have this book .
+</sentence>
+<sentence english="I may have this book." expected_bengali="আমার এই বইটি থাকতে পারে।">
+I may have this book .
+</sentence>
+<sentence english="You can work." expected_bengali="আপনি কাজ করতে পারেন।">
+You can work.
+</sentence>
+<sentence english="You may work." expected_bengali="আপনি কাজ করতে পারেন।">
+You may work.
+</sentence>
+<sentence english="You could work." expected_bengali="আপনি কাজ করতে পারেন।">
+You could work.
+</sentence>
+<sentence english="You might work." expected_bengali="আপনি কাজ করতে পারেন।">
+You might work.
+</sentence>
+<sentence english="You could have worked." expected_bengali="আপনি কাজ করতে পারেন।">
+You could have worked.
+</sentence>
+<sentence english="You might have worked." expected_bengali="আপনি কাজ করতে পারেন।">
+You might have worked.
+</sentence>
+<sentence english="You can have this book." expected_bengali="আপনার এই বইটি থাকতে পারে।">
+You can have this book.
+</sentence>
+<sentence english="You may have this book." expected_bengali="আপনার এই বইটি থাকতে পারে।">
+You may have this book.
+</sentence>
+<sentence english="She can work." expected_bengali="সে কাজ করতে পারে।">
+She can work.
+</sentence>
+<sentence english="She may work." expected_bengali="সে কাজ করতে পারে।">
+She may work.
+</sentence>
+<sentence english="She could work." expected_bengali="সে কাজ করতে পারে।">
+She could work.
+</sentence>
+<sentence english="She might work." expected_bengali="সে কাজ করতে পারে।">
+She might work.
+</sentence>
+<sentence english="She could have worked." expected_bengali="সে কাজ করতে পারে।">
+She could have worked.
+</sentence>
+<sentence english="She might have worked." expected_bengali="সে কাজ করতে পারে।">
+She might have worked.
+</sentence>
+<sentence english="She may have this book." expected_bengali="তার এই বইটি থাকতে পারে।">
+She may have this book.
+</sentence>
+<sentence english="It can be done." expected_bengali="এইটি করা যাবে।">
+It can be done.
+</sentence>
+<sentence english="It may be done." expected_bengali="এইটি করা হয়ত যাবে।">
+It may be done.
+</sentence>
+<sentence english="It could be done." expected_bengali="এইটি করা যাবে।">
+It could be done.
+</sentence>
+<sentence english="It might be done." expected_bengali="এইটি করা যাবে।">
+It might be done.
+</sentence>
+<sentence english="It could have been done." expected_bengali="এইটি করা যেত।">
+It could have been done.
+</sentence>
+<sentence english="It might have been done." expected_bengali="এইটি করা যেত।">
+It might have been done.
+</sentence>
+</testsuites>

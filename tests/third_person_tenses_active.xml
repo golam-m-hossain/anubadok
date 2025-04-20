@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="Third person: all tenses, active sentences">
+<author>Golam Mortuza Hossain</author>
+<sentence english="She works." expected_bengali="সে কাজ করে।">
+She works.
+</sentence>
+<sentence english="She is working." expected_bengali="সে কাজ করছে।">
+She is working.
+</sentence>
+<sentence english="She has worked." expected_bengali="সে কাজ করেছে।">
+She has worked.
+</sentence>
+<sentence english="She has been working." expected_bengali="সে কাজ করছে।">
+She has been working.
+</sentence>
+<sentence english="She worked." expected_bengali="সে কাজ করেছিল।">
+She worked.
+</sentence>
+<sentence english="She was working." expected_bengali="সে কাজ করছিল।">
+She was working.
+</sentence>
+<sentence english="She had worked." expected_bengali="সে কাজ করেছিল।">
+She had worked.
+</sentence>
+<sentence english="She had been working." expected_bengali="সে কাজ করছিল।">
+She had been working.
+</sentence>
+<sentence english="She will work." expected_bengali="সে কাজ করবে।">
+She will work.
+</sentence>
+<sentence english="She will be working." expected_bengali="সে কাজ করবে।">
+She will be working.
+</sentence>
+</testsuites>

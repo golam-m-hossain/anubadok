@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="Second person: all tenses, active sentences">
+<author>Golam Mortuza Hossain</author>
+<sentence english="You work." expected_bengali="আপনি কাজ করুন।">
+You work.
+</sentence>
+<sentence english="You are working." expected_bengali="আপনি কাজ করছেন।">
+You are working.
+</sentence>
+<sentence english="You have worked." expected_bengali="আপনি কাজ করেছেন।">
+You have worked.
+</sentence>
+<sentence english="You have been working." expected_bengali="আপনি কাজ করছেন।">
+You have been working.
+</sentence>
+<sentence english="You worked." expected_bengali="আপনি কাজ করেছিলেন।">
+You worked.
+</sentence>
+<sentence english="You were working." expected_bengali="আপনি কাজ করছিলেন।">
+You were working.
+</sentence>
+<sentence english="You had worked." expected_bengali="আপনি কাজ করেছিলেন।">
+You had worked.
+</sentence>
+<sentence english="You had been working." expected_bengali="আপনি কাজ করছিলেন।">
+You had been working.
+</sentence>
+<sentence english="You will work." expected_bengali="আপনি কাজ করবেন।">
+You will work.
+</sentence>
+<sentence english="You will be working." expected_bengali="আপনি কাজ করবেন।">
+You will be working.
+</sentence>
+</testsuites>

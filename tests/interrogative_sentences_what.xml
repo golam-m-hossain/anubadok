@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="All persons: interrogative sentences with _what_.">
+<author>Golam Mortuza Hossain</author>
+<sentence english="What is my name?" expected_bengali="আমার নাম কি?">
+What is my name?
+</sentence>
+<sentence english="What was my name?" expected_bengali="আমার নাম কি ছিল?">
+What was my name?
+</sentence>
+<sentence english="What will be my name?" expected_bengali="আমার নাম কি হবে?">
+What will be my name?
+</sentence>
+<sentence english="What is your name?" expected_bengali="আপনার নাম কি?">
+What is your name?
+</sentence>
+<sentence english="What was your name?" expected_bengali="আপনার নাম কি ছিল?">
+What was your name?
+</sentence>
+<sentence english="What will be your name?" expected_bengali="আপনার নাম কি হবে?">
+What will be your name?
+</sentence>
+<sentence english="What is her name?" expected_bengali="তার নাম কি?">
+What is her name?
+</sentence>
+<sentence english="What was her name?" expected_bengali="তার নাম কি ছিল?">
+What was her name?
+</sentence>
+<sentence english="What will be her name?" expected_bengali="তার নাম কি হবে?">
+What will be her name?
+</sentence>
+</testsuites>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="First person: all tenses, active sentences.">
+<author>Golam Mortuza Hossain</author>
+<sentence english="I work." expected_bengali="আমি কাজ করি।">
+I work.
+</sentence>
+<sentence english="I am working." expected_bengali="আমি কাজ করছি।">
+I am working.
+</sentence>
+<sentence english="I have worked." expected_bengali="আমি কাজ করেছি।">
+I have worked.
+</sentence>
+<sentence english="I have been working." expected_bengali="আমি কাজ করছি।">
+I have been working.
+</sentence>
+<sentence english="I worked." expected_bengali="আমি কাজ করেছিলাম।">
+I worked.
+</sentence>
+<sentence english="I was working." expected_bengali="আমি কাজ করছিলাম।">
+I was working.
+</sentence>
+<sentence english="I had worked." expected_bengali="আমি কাজ করেছিলাম।">
+I had worked.
+</sentence>
+<sentence english="I had been working." expected_bengali="আমি কাজ করছিলাম।">
+I had been working.
+</sentence>
+<sentence english="I will work." expected_bengali="আমি কাজ করব।">
+I will work.
+</sentence>
+<sentence english="I will be working." expected_bengali="আমি কাজ করব।">
+I will be working.
+</sentence>
+</testsuites>

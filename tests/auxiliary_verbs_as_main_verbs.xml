@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="All person: auxiliary verbs as main verbs, active sentences.">
+<author>Golam Mortuza Hossain</author>
+<sentence english="I am a good student." expected_bengali="আমি একটি ভাল ছাত্র।">
+I am a good student.
+</sentence>
+<sentence english="I was a good student." expected_bengali="আমি একটি ভাল ছাত্র ছিলাম।">
+I was a good student.
+</sentence>
+
+<sentence english="I will be a good student." expected_bengali="আমি একটি ভাল ছাত্র হব।">
+	I will be a good student.
+</sentence>
+<sentence english="I have been a good student." expected_bengali="আমি একটি ভাল ছাত্র।">
+	I have been a good student.
+</sentence>
+<sentence english="I had been a good student." expected_bengali="আমি একটি ভাল ছাত্র ছিলাম।">
+	I had been a good student.
+</sentence>
+<sentence english="I have a book." expected_bengali="আমার একটি বই রয়েছে।">
+	I have a book.
+</sentence>
+<sentence english="I had a book." expected_bengali="আমার একটি বই ছিল।">
+	I had a book.
+</sentence>
+<sentence english="I will have a book." expected_bengali="আমার একটি বই থাকবে।">
+	I will have a book.
+</sentence>
+<sentence english="I am having problem in reading this book." expected_bengali="আমার এই বইটি পড়তে সমস্যা রয়েছে।">
+	I am having problem in reading this book.
+</sentence>
+
+<sentence english="You are a good student." expected_bengali="আপনি একটি ভাল ছাত্র।">
+	You are a good student.
+</sentence>
+<sentence english="You were a good student." expected_bengali="আপনি একটি ভাল ছাত্র ছিলেন।">
+	You were a good student.
+</sentence>
+<sentence english="You will be a good student." expected_bengali="আপনি একটি ভাল ছাত্র হবেন।">
+	You will be a good student.
+</sentence>
+<sentence english="You have been a good student." expected_bengali="আপনি একটি ভাল ছাত্র।">
+	You have been a good student.
+</sentence>
+<sentence english="You had been a good student." expected_bengali="আপনি একটি ভাল ছাত্র ছিলেন।">
+	You had been a good student.
+</sentence>
+<sentence english="You have a book." expected_bengali="আপনার একটি বই রয়েছে।">
+	You have a book.
+</sentence>
+<sentence english="You had a book." expected_bengali="আপনার একটি বই ছিল।">
+	You had a book.
+</sentence>
+<sentence english="You will have a book." expected_bengali="আপনার একটি বই থাকবে।">
+	You will have a book.
+</sentence>
+<sentence english="She is a good student." expected_bengali="সে একটি ভাল ছাত্র।">
+	She is a good student.
+</sentence>
+<sentence english="She was a good student." expected_bengali="সে একটি ভাল ছাত্র ছিল।">
+	She was a good student.
+</sentence>
+<sentence english="She will be a good student." expected_bengali="সে একটি ভাল ছাত্র হবে।">
+	She will be a good student.
+</sentence>
+<sentence english="She has been a good student." expected_bengali="সে একটি ভাল ছাত্র।">
+	She has been a good student.
+</sentence>
+
+<sentence english="She had been a good student." expected_bengali="সে একটি ভাল ছাত্র ছিল।">
+	She had been a good student.
+</sentence>
+<sentence english="She has a book." expected_bengali="তার একটি বই রয়েছে।">
+	She has a book.
+</sentence>
+<sentence english="She had a book." expected_bengali="তার একটি বই ছিল।">
+	She had a book.
+</sentence>
+<sentence english="She will have a book." expected_bengali="তার একটি বই থাকবে।">
+	She will have a book.
+</sentence>
+</testsuites>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="All persons: interrogative sentences that begin with _do_">
+<author>Golam Mortuza Hossain</author>
+<sentence english="Do I know you?" expected_bengali="আমি কি আপনাকে জানি?">
+Do I know you?
+</sentence>
+<sentence english="Did I tell you?" expected_bengali="আমি কি আপনাকে বলেছিলাম?">
+Did I tell you?
+</sentence>
+<sentence english="Do you know me?" expected_bengali="আপনি কি আমাকে জানেন?">
+	Do you know me?
+</sentence>
+<sentence english="Did you tell me?" expected_bengali="আপনি কি আমাকে বলেছিলেন?">
+	Did you tell me?
+</sentence>
+<sentence english="Does she know me?" expected_bengali="সে কি আমাকে জানে?">
+	Does she know me?
+</sentence>
+<sentence english="Do you eat this bread?" expected_bengali="আপনি কি এই রুটিটি খান?">
+	Do you eat this bread?
+</sentence>
+<sentence english="Did you eat this bread?" expected_bengali="আপনি কি এই রুটিটি খেয়েছিলেন?">
+	Did you eat this bread?
+</sentence>
+<sentence english="Does she eat this bread?" expected_bengali="সে কি এই রুটিটি খায়?">
+	Does she eat this bread?
+</sentence>
+<sentence english="Did she eat this bread?" expected_bengali="সে কি এই রুটিটি খেয়েছিল?">
+	Did she eat this bread?
+</sentence>
+</testsuites>

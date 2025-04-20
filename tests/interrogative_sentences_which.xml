@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="Interrogative sentences with _which_.">
+<author>Golam Mortuza Hossain</author>
+<sentence english="Which book is the best?" expected_bengali="সর্বোত্তম কোন বই?">
+Which book is the best?
+</sentence>
+<sentence english="Which food do you like?"  expected_bengali="আপনি কোন খাবার পছন্দ করেন?">
+Which food do you like?
+</sentence>
+</testsuites>

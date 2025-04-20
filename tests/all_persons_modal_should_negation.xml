@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="Modal verb: _should_ for all persons and tenses in negation">
+<author>Golam Mortuza Hossain</author>
+<sentence english="I should not work." expected_bengali="আমার কাজ করা উচিত নয়।">
+I should not work.
+</sentence>
+<sentence english="I should not be working." expected_bengali="আমার কাজ করা উচিত নয়।">
+I should not be working.
+</sentence>
+<sentence english="I should not have worked." expected_bengali="আমার কাজ করা উচিত হয়নি।">
+I should not have worked.
+</sentence>
+<sentence english="I should not have been working." expected_bengali="আমার কাজ করা উচিত হয়নি।">
+I should not have been working.
+</sentence>
+<sentence english="You should not work." expected_bengali="আপনার কাজ করা উচিত নয়।">
+You should not work.
+</sentence>
+<sentence english="You should not be working." expected_bengali="আপনার কাজ করা উচিত নয়।">
+You should not be working.
+</sentence>
+<sentence english="You should not have worked." expected_bengali="আপনার কাজ করা উচিত হয়নি।">
+You should not have worked.
+</sentence>
+<sentence english="You should not have been working." expected_bengali="আপনার কাজ করা উচিত হয়নি।">
+You should not have been working.
+</sentence>
+<sentence english="She should not work." expected_bengali="তার কাজ করা উচিত নয়।">
+She should not work.
+</sentence>
+<sentence english="She should not be working." expected_bengali="তার কাজ করা উচিত নয়।">
+She should not be working.
+</sentence>
+<sentence english="She should not have worked." expected_bengali="তার কাজ করা উচিত হয়নি।">
+She should not have worked.
+</sentence>
+<sentence english="She should not have been working." expected_bengali="তার কাজ করা উচিত হয়নি।">
+She should not have been working.
+</sentence>
+<sentence english="This machine should not be working." expected_bengali="এই মেশিনটির কাজ করা উচিত নয়।">
+This machine should not be working.
+</sentence>
+<sentence english="This machine should not have worked." expected_bengali="এই মেশিনটির কাজ করা উচিত হয়নি।">
+This machine should not have worked.
+</sentence>
+<sentence english="This car should not have air-conditioner." expected_bengali="এই গাড়িটির বাতানুকুল যন্ত্র থাকা উচিত নয়।">
+This car should not have air-conditioner.
+</sentence>
+<sentence english="It should not be done." expected_bengali="এইটি করা উচিত নয়।">
+	It should not be done.
+</sentence>
+<sentence english="It should not have been done." expected_bengali="এইটি করা উচিত হয়নি।">
+	It should not have been done.
+</sentence>
+</testsuites>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="Interrogative sentences with _whom_.">
+<author>Golam Mortuza Hossain</author>
+<sentence english="Whom do you want?" expected_bengali="আপনি কাকে চান?">
+	Whom do you want?
+</sentence>
+<sentence english="To whom did he tell the story?"  expected_bengali="সে গল্প কাকে বলেছিল?">
+	To whom did he tell story?
+</sentence>
+</testsuites>

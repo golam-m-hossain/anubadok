@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="Prepositions that are made with three words.">
+<author>Golam Mortuza Hossain</author>
+<sentence english="As far as I know." expected_bengali="যতদূর আমি জানি।">
+	As far as I know. 
+</sentence>
+<sentence english="You can get pen as well as paper." 
+	  expected_bengali="আপনি কলম ও কাগজ পেতে পারেন।">
+You can get pen as well as paper.
+</sentence>
+<sentence english="You can transfer information by means of physical medium." 
+	  expected_bengali="আপনি ভৌত মাধ্যম ব্যবহার করে তথ্য স্থানান্তর করতে পারেন।">
+	You can transfer information by means of physical medium.
+</sentence>
+<sentence english="I am announcing on behalf of our company."
+	  expected_bengali="আমি আমাদের কোম্পানির পক্ষ থেকে ঘোষণা করছি।">
+	I am announcing on behalf of our company.
+</sentence>
+
+</testsuites>

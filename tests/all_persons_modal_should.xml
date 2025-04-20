@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="Modal verb: _should_ for all persons and tenses">
+<author>Golam Mortuza Hossain</author>
+<sentence english="I should work." expected_bengali="আমার কাজ করা উচিত।">
+I should work.
+</sentence>
+<sentence english="I should be working." expected_bengali="আমার কাজ করা উচিত।">
+I should be working.
+</sentence>
+<sentence english="I should have worked." expected_bengali="আমার কাজ করা উচিত ছিল।">
+I should have worked.
+</sentence>
+<sentence english="I should have been working." expected_bengali="আমার কাজ করা উচিত ছিল।">
+I should have been working.
+</sentence>
+<sentence english="You should work." expected_bengali="আপনার কাজ করা উচিত।">
+You should work.
+</sentence>
+<sentence english="You should be working." expected_bengali="আপনার কাজ করা উচিত।">
+You should be working.
+</sentence>
+<sentence english="You should have worked." expected_bengali="আপনার কাজ করা উচিত ছিল।">
+You should have worked.
+</sentence>
+<sentence english="You should have been working." expected_bengali="আপনার কাজ করা উচিত ছিল।">
+You should have been working.
+</sentence>
+<sentence english="She should work." expected_bengali="তার কাজ করা উচিত।">
+She should work.
+</sentence>
+<sentence english="She should be working." expected_bengali="তার কাজ করা উচিত।">
+She should be working.
+</sentence>
+<sentence english="She should have worked." expected_bengali="তার কাজ করা উচিত ছিল।">
+She should have worked.
+</sentence>
+<sentence english="She should have been working." expected_bengali="তার কাজ করা উচিত ছিল।">
+She should have been working.
+</sentence>
+<sentence english="This machine should be working." expected_bengali="এই মেশিনটির কাজ করা উচিত।">
+This machine should be working.
+</sentence>
+<sentence english="This machine should have worked." expected_bengali="এই মেশিনটির কাজ করা উচিত ছিল।">
+This machine should have worked.
+</sentence>
+<sentence english="This car should have air-conditioner." expected_bengali="এই গাড়িটির বাতানুকুল যন্ত্র থাকা উচিত।">
+This car should have air-conditioner.
+</sentence>
+<sentence english="It should be done." expected_bengali="এইটি করা উচিত।">
+It should be done.
+</sentence>
+<sentence english="It should have been done." expected_bengali="এইটি করা উচিত ছিল।">
+	It should have been done.
+</sentence>
+</testsuites>

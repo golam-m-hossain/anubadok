@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="Interrogative sentences with _who_.">
+<author>Golam Mortuza Hossain</author>
+<sentence english="Who are you?" expected_bengali="আপনি কে?">
+	Who are you?
+</sentence>
+<sentence english="Who was she?"  expected_bengali="সে কে ছিল?">
+	Who was she?
+</sentence>
+<sentence english="Who fixed this car?"  expected_bengali="এই গাড়িটি কে মেরামত করেছিল?">
+	Who fixed this car?
+</sentence>
+<sentence english="Who wants to drink milk?"  expected_bengali="দুধ পান করতে কে চায়?">
+	Who wants to drink milk?
+</sentence>
+</testsuites>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="Interrogative sentences with _who_.">
+<author>Golam Mortuza Hossain</author>
+<sentence english="How are you?" expected_bengali="আপনি কেমন?">
+	How are you?
+</sentence>
+<sentence english="How were you?"  expected_bengali="আপনি কেমন ছিলেন?">
+	How were you?
+</sentence>
+
+<sentence english="How does this machine work?"  expected_bengali="এই মেশিন কাজটি কিভাবে করে?">
+	How does this machine work?
+</sentence>
+<sentence english="How do you know about them?"  expected_bengali="তাদের সম্বন্ধে আপনি কিভাবে জানেন?">
+	How do you know about them?
+</sentence>
+<sentence english="How will you control this kingdom?"  expected_bengali="আপনি এই রাজ্যটি কিভাবে নিয়ন্ত্রণ করবেন?">
+	How will you control this kingdom?
+</sentence>
+
+<sentence english="How machines are made?"  expected_bengali="কিভাবে মেশিন তৈরি করা হয়?">
+	How machines are made?
+</sentence>
+<sentence english="How do children browse the internet?"  expected_bengali="শিশু ইন্টারনেট কিভাবে ব্রাউজ করে?">
+	How do children browse the internet?
+</sentence>
+
+
+<sentence english="How long does it take?"  expected_bengali="এইটি কত সময় গ্রহণ করে?">
+	How long does it take?
+</sentence>
+<sentence english="How good are these fruits?"  expected_bengali="এই ফলগুলি কত ভাল আছে?">
+	How good are these fruits?
+</sentence>
+<sentence english="How many birds were there?"  expected_bengali="কতগুলি পাখি সেখানে ছিল?">
+	How many birds were there?
+</sentence>
+<sentence english="How much money do you have?"  expected_bengali="আপনার কত টাকা রয়েছে?">
+	How much money do you have?
+</sentence>
+
+<sentence english="How far is it?"  expected_bengali="এইটি কত দুরে?">
+	How far is it?
+</sentence>
+<sentence english="How big is this city?"  expected_bengali="এই শহরটি কত বড়?">
+	How big is this city?
+</sentence>
+
+<sentence english="How to plan a building?"  expected_bengali="একটি ভবন পরিকল্পনা করতে হয় কিভাবে?">
+	How to plan a building?
+</sentence>
+<sentence english="How to become a scientist?"  expected_bengali="একটি বিজ্ঞানী হতে হয় কিভাবে?">
+	How to become a scientist?
+</sentence>
+<sentence english="How to be a good student?"  expected_bengali="একটি ভাল ছাত্র হতে হয় কিভাবে?">
+	How to be a good student?
+</sentence>
+<sentence english="How to change the world?"  expected_bengali="বিশ্ব পরিবর্তন করতে হয় কিভাবে?">
+	How to change the world?
+</sentence>
+
+
+
+<sentence english="How not to change the world?"  expected_bengali="বিশ্ব পরিবর্তন না করতে হয় কিভাবে?">
+	How not to change the world?
+</sentence>
+
+
+</testsuites>

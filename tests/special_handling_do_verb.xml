@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="Special handling of _do_ verb for different situations">
+<author>Golam Mortuza Hossain</author>
+<sentence english="I do." expected_bengali="আমি করি।">
+I do.
+</sentence>
+<sentence english="I am doing." expected_bengali="আমি করছি।">
+I am doing.
+</sentence>
+<sentence english="I have done." expected_bengali="আমি করেছি।">
+I have done.
+</sentence>
+<sentence english="I have been doing." expected_bengali="আমি করছি।">
+I have been doing.
+</sentence>
+<sentence english="I did." expected_bengali="আমি করেছিলাম।">
+I did.
+</sentence>
+<sentence english="I was doing." expected_bengali="আমি করছিলাম।">
+I was doing.
+</sentence>
+<sentence english="I had done." expected_bengali="আমি করেছিলাম।">
+I had done.
+</sentence>
+<sentence english="I had been doing." expected_bengali="আমি করছিলাম।">
+I had been doing.
+</sentence>
+<sentence english="I will do." expected_bengali="আমি করব।">
+I will do.
+</sentence>
+<sentence english="I will be doing." expected_bengali="আমি করব।">
+I will be doing.
+</sentence>
+<sentence english="I do work." expected_bengali="আমি কাজ করি।">
+I do work.
+</sentence>
+<sentence english="I do have this book." expected_bengali="আমার এই বইটি রয়েছে।">
+I do have this book.
+</sentence>
+<sentence english="I did have this book." expected_bengali="আমার এই বইটি ছিল।">
+I did have this book.
+</sentence>
+</testsuites>

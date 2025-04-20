@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="All persons: Interrogative sentences with preceding auxiliary verbs.">
+<author>Golam Mortuza Hossain</author>
+<sentence english="Do I work?" expected_bengali="আমি কি কাজ করি?">
+Do I work?
+</sentence>
+<sentence english="Am I working?" expected_bengali="আমি কি কাজ করছি?">
+Am I working?
+</sentence>
+<sentence english="Have I worked?" expected_bengali="আমি কি কাজ করেছি?">
+Have I worked?
+</sentence>
+<sentence english="Have I been working?" expected_bengali="আমি কি কাজ করছি?">
+Have I been working?
+</sentence>
+<sentence english="Did I work?" expected_bengali="আমি কি কাজ করেছিলাম?">
+Did I work?
+</sentence>
+<sentence english="Was Iworking?" expected_bengali="আমি কি কাজ করছিলাম?">
+Was I working?
+</sentence>
+<sentence english="Had I worked?" expected_bengali="আমি কি কাজ করেছিলাম?">
+Had I worked?
+</sentence>
+<sentence english="Had I been working?" expected_bengali="আমি কি কাজ করছিলাম?">
+Had I been working?
+</sentence>
+<sentence english="Will I work?" expected_bengali="আমি কি কাজ করব?">
+Will I work?
+</sentence>
+<sentence english="Will I be working?" expected_bengali="আমি কি কাজ করব?">
+Will I be working?
+</sentence>
+
+<sentence english="Do you work?" expected_bengali="আপনি কি কাজ করেন?">
+	Do you work?
+</sentence>
+<sentence english="Are you working?" expected_bengali="আপনি কি কাজ করছেন?">
+	Are you working?
+</sentence>
+<sentence english="Have you worked?" expected_bengali="আপনি কি কাজ করেছেন?">
+	Have you worked?
+</sentence>
+<sentence english="Have you been working?" expected_bengali="আপনি কি কাজ করছেন?">
+	Have you been working?
+</sentence>
+<sentence english="Did you work?" expected_bengali="আপনি কি কাজ করেছিলেন?">
+	Did you work?
+</sentence>
+<sentence english="Were you working?" expected_bengali="আপনি কি কাজ করছিলেন?">
+	Were you working?
+</sentence>
+<sentence english="Had you worked?" expected_bengali="আপনি কি কাজ করেছিলেন?">
+	Had you worked?
+</sentence>
+<sentence english="Had you been working?" expected_bengali="আপনি কি কাজ করছিলেন?">
+	Had you been working?
+</sentence>
+<sentence english="Will you work?" expected_bengali="আপনি কি কাজ করবেন?">
+	Will you work?
+</sentence>
+<sentence english="Will you be working?" expected_bengali="আপনি কি কাজ করবেন?">
+	Will you be working?
+</sentence>
+
+</testsuites>

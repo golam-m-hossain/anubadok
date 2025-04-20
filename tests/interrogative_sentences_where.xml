@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="Interrogative sentences with _where_.">
+<author>Golam Mortuza Hossain</author>
+<sentence english="Where are you today?" expected_bengali="আপনি আজ কোথায়?">
+	Where are you today?
+</sentence>
+<sentence english="Where does she live?"  expected_bengali="সে কোথায় বসবাস করে?">
+	Where does she live?
+</sentence>
+<sentence english="Where will you go tomorrow?"  expected_bengali="আপনি আগামী কাল কোথায় যাবেন?">
+	Where will you go tomorrow?
+</sentence>
+</testsuites>

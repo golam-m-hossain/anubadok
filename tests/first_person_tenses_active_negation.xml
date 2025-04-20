@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<testsuites type="First person: all tenses, active sentences in negation">
+<author>Golam Mortuza Hossain</author>
+<sentence english="I do not work." expected_bengali="আমি কাজ করি না।">
+I do not work.
+</sentence>
+<sentence english="I am not working." expected_bengali="আমি কাজ করছি না।">
+I am not working.
+</sentence>
+<sentence english="I have not worked." expected_bengali="আমি কাজ করিনি।">
+I have not worked.
+</sentence>
+<sentence english="I have not been working." expected_bengali="আমি কাজ করছি না।">
+I have not been working.
+</sentence>
+<sentence english="I did not work." expected_bengali="আমি কাজ করিনি।">
+I did not work.
+</sentence>
+<sentence english="I was not working." expected_bengali="আমি কাজ করছিলাম না।">
+I was not working.
+</sentence>
+<sentence english="I had not worked." expected_bengali="আমি কাজ করিনি।">
+I had not worked.
+</sentence>
+<sentence english="I had not been working." expected_bengali="আমি কাজ করছিলাম না।">
+I had not been working.
+</sentence>
+<sentence english="I will not work." expected_bengali="আমি কাজ করব না।">
+I will not work.
+</sentence>
+<sentence english="I will not be working." expected_bengali="আমি কাজ করব না।">
+I will not be working.
+</sentence>
+</testsuites>

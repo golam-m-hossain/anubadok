@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<list>
+<description>
+All test-suite files need to be included here.
+</description>
+<file>first_person_tenses_active.xml</file>
+<file>first_person_tenses_active_negation.xml</file>
+<file>second_person_tenses_active.xml</file>
+<file>second_person_tenses_active_negation.xml</file>
+<file>third_person_tenses_active.xml</file>
+<file>third_person_tenses_active_negation.xml</file>
+<file>all_persons_modal_should.xml</file>
+<file>all_persons_modal_should_negation.xml</file>
+<file>all_persons_modal_can_may.xml</file>
+<file>all_persons_modal_can_may_negation.xml</file>
+<file>special_handling_do_verb.xml</file>
+<file>all_persons_tenses_passive.xml</file>
+<file>all_persons_tenses_passive_negation.xml</file>
+<file>auxiliary_verbs_as_main_verbs.xml</file>
+<file>interrogative_sentences_aux.xml</file>
+<file>interrogative_sentences_do.xml</file>
+<file>interrogative_sentences_what.xml</file>
+<file>interrogative_sentences_which.xml</file>
+<file>interrogative_sentences_who.xml</file>
+<file>interrogative_sentences_why.xml</file>
+<file>interrogative_sentences_where.xml</file>
+<file>interrogative_sentences_whom.xml</file>
+<file>interrogative_sentences_how.xml</file>
+<file>prepositions_made_with_two_words.xml</file>
+<file>prepositions_made_with_three_words.xml</file>
+</list>
