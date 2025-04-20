@@ -39,13 +39,27 @@ Run locally without installation:
 2. Navigate to the package directory:
    
    ```bash
-   cd anubadok
    echo "I love you." | ./scripts/anubadok.py
    ```
 Output will appear in Unicode Bengali.   
-   
+
+## Running Test Suites of Anubadok
+
+To run all available test suites, use the following command:
+
+  ```bash
+  ./scripts/run_anubadok_test_suite.py
+  ```
+To run a particular test suite, specify it as a command-line argument. For example:
+
+  ```bash
+  ./scripts/run_anubadok_test_suite.py tests/first_person_tenses_active.xml
+  ```
+
+
 ## License
 This project is licensed under the GNU General Public License v2+ - see the **[LICENSE](LICENSE)** file for details.
+
 
 ## Author & Contact
 
