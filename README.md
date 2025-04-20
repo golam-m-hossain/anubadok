@@ -12,11 +12,11 @@ faster—essential for local language computation.
 
 While initially focused on PO files, its scope expanded to broader applications, such as 
 translating Wikipedia content. As a Sanskrit-derived language, Bengali has structural advantages 
-for machine sentence synthesis. In its feature-complete state, Anubadok can handle preliminary 
+for machine synthesis of sentences. In its current state, Anubadok can handle preliminary 
 translations reasonably well, allowing volunteers to focus on manual editing.
 
 ## Architecture  
-This GitHub version is Python (it was originally written in Perl). The Anubadok system uses the Penn Treebank 
+This GitHub version is written Python (and ported from the original Perl codes). The Anubadok system uses the Penn Treebank 
 annotation system for natural language processing. It supports multiple input types:  
 - Plain text files  
 - XML documents  
@@ -39,13 +39,27 @@ Run locally without installation:
 2. Navigate to the package directory:
    
    ```bash
-   cd anubadok
    echo "I love you." | ./scripts/anubadok.py
    ```
 Output will appear in Unicode Bengali.   
-   
+
+## Running Test Suites of Anubadok
+
+To run all available test suites, use the following command:
+
+  ```bash
+  ./scripts/run_anubadok_test_suite.py
+  ```
+To run a particular test suite, specify it as a command-line argument. For example:
+
+  ```bash
+  ./scripts/run_anubadok_test_suite.py tests/first_person_tenses_active.xml
+  ```
+
+
 ## License
 This project is licensed under the GNU General Public License v2+ - see the **[LICENSE](LICENSE)** file for details.
+
 
 ## Author & Contact
 
