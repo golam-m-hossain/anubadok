@@ -16,8 +16,9 @@ for machine synthesis of sentences. In its current state, Anubadok can handle pr
 translations reasonably well, allowing volunteers to focus on manual editing.
 
 ## Architecture  
-This GitHub version is written Python (and ported from the original Perl codes). The Anubadok system uses the Penn Treebank 
-annotation system for natural language processing. It supports multiple input types:  
+This GitHub version is written in Python (and ported from the original Perl codes). The Anubadok 
+system uses the Penn Treebank annotation system for natural language processing. It supports 
+multiple input types:
 - Plain text files  
 - XML documents  
 - HTML files with inline JavaScript/CSS  
