@@ -1,0 +1,20 @@
+0171d84 (HEAD -> main, origin/main, origin/HEAD) moved to docs
+1a6eb4f moved to docs
+02c5078 PP in subject indicator
+ba76bba Debug flag count
+bb7f2f0 clean up
+00e761d updated
+aaf86ef (tag: v0.3.0) Merge branch 'main' of https://github.com/golam-m-hossain/anubadok
+b59aad2 Original Perl changelog Added
+c4fa353 Update README.md
+0175ab4 Update README.md
+9b6fe9f Update README.md
+d705b8d Create README.md
+77dd00b Added
+fa5710b A collection of test suites to check the expected translation output
+f38f0df Brief outline of Anubadok MT system
+00ba19d added
+9125a4b Python ports of original Perl scripts
+1b9d766 Python ports of original Perl programs
+7ef9f8b added
+bf0655b Create .gitignore
