@@ -37,12 +37,13 @@ from pathlib import Path
 
 # Import the necessary
 sys.path.insert(0, ".")
-from anubadok import settings
 from anubadok import initialize
+initialize.check_user_anubadok_dir()
+
+from anubadok import settings
 from anubadok import xml_pp
 from anubadok import pos_tagger
 from anubadok import translator
-import user_settings
 
 def main():
     parser = argparse.ArgumentParser(description="Anubadok - The Bengali Machine Translator")
@@ -81,8 +82,6 @@ def main():
         print("Reading from STDIN; (try: anubadok --help for usage or", file=sys.stderr)
         print("see manpage for details.)", file=sys.stderr)
 
-    # Initialize
-    initialize.check_user_anubadok_dir()
     
     # Read input
     input_content = input_source.read()

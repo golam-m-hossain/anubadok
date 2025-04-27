@@ -38,6 +38,11 @@ from pathlib import Path
 from anubadok import settings
 
 
+class UserSettings:
+    verbose = False
+    save_new_words_list = False
+
+
 def check_user_anubadok_dir():
     """
     Check whether .anubadok dir exists if not create it.

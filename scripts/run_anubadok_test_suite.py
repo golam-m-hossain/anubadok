@@ -39,6 +39,9 @@ from pathlib import Path
 
 # Import the necessary
 sys.path.insert(0, ".")
+from anubadok import initialize
+initialize.check_user_anubadok_dir()
+
 from anubadok import settings
 from anubadok import xml_pp
 from anubadok import pos_tagger
@@ -108,8 +111,6 @@ def translate_all_test_suites(test_suites_dir, list_of_files):
     os.unlink(combo_file)
     os.unlink(combo_file_bengali)
     
-    return 0
-
 
 def check_translated_file(bengali_file):
     """
